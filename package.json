@@ -1,13 +1,12 @@
 {
   "name": "my-test115",
   "version": "0.0.0",
-  "scripts": {
-    "start": "ng serve",
-    "ng": "ng",
-    "build": "ng build --prod",
+  "scripts": {    
+    "ng": "ng",    
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build": "ng build --prod --aot",
   },
   "private": true,
   "dependencies": {
